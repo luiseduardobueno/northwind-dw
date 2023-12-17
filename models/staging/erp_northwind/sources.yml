@@ -10,6 +10,6 @@ sources:
           - name: product_id
             tests:
               - unique
-              - not null
+              - not_null
       - name: categories
       - name: suppliers
