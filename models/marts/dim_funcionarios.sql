@@ -21,7 +21,7 @@ with
             , funcionario.nome_funcionario
             , gerente.nome_funcionario as nome_gerente
             , funcionario.cargo_funcionario
-            , funcionario.dt_nascimento
+            , funcionario.dt_nascimento as dt_nascimento_funcionario
             , funcionario.dt_contratacao
             , funcionario.cidade_funcionario
             , funcionario.regiao_funcionario

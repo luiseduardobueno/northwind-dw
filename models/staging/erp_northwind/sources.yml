@@ -20,8 +20,8 @@ sources:
         - name: order_id
           tests:
             - unique
-            - not null
-      - name: orders_details
+            - not_null
+      - name: order_details
         
 
 
